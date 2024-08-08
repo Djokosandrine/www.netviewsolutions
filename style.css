@@ -1,0 +1,118 @@
+body {
+	background-image: url('fond-ecran.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	background-color: #53cf2e;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 150px;
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #141313;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #8e9796;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	color: #333;
+}
+
+.temoignage {
+	margin-bottom: 20px;
+}
+
+.temoignage img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+.diaporama {
+    position: relative;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .slides img {
+    display: none;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .slides img:first-child {
+    display: block;
+  }
+  
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .next:hover {
+    background-color: #555;
+  }
+  
